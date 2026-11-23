@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://bcbgcwownq0o7"
+path="res://.godot/imported/Stanford.aseprite-febb88300e43bf4283da0f2020cd8563.res"
+
+[deps]
+
+source_file="res://sprites/Stanford.aseprite"
+dest_files=["res://.godot/imported/Stanford.aseprite-febb88300e43bf4283da0f2020cd8563.res"]
+
+[params]
+
