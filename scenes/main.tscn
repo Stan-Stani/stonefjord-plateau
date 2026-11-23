@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://b8w4okj3ecmok"]
 
+[ext_resource type="SpriteFrames" uid="uid://bcbgcwownq0o7" path="res://sprites/Stanford.aseprite" id="1_o5qli"]
+
 [node name="Main" type="Node2D" unique_id=1177477874]
+y_sort_enabled = true
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=229782096]
+position = Vector2(302, 171)
+sprite_frames = ExtResource("1_o5qli")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1733302985]
+position = Vector2(263, 178)
+sprite_frames = ExtResource("1_o5qli")
