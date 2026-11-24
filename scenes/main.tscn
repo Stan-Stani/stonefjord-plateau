@@ -1,14 +1,31 @@
 [gd_scene format=3 uid="uid://b8w4okj3ecmok"]
 
-[ext_resource type="SpriteFrames" uid="uid://bcbgcwownq0o7" path="res://sprites/Stanford.aseprite" id="1_o5qli"]
+[ext_resource type="SpriteFrames" uid="uid://cr4trkmypjora" path="res://characters/stanford/portrait.aseprite" id="1_0wfyh"]
+[ext_resource type="Script" uid="uid://dqkifwywe26xe" path="res://scenes/player.gd" id="2_jyhfs"]
+[ext_resource type="SpriteFrames" uid="uid://cioobnmb5o1e8" path="res://characters/stanford/body.aseprite" id="2_sugp2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_11rr5"]
+radius = 6.0
+height = 28.0
 
 [node name="Main" type="Node2D" unique_id=1177477874]
 y_sort_enabled = true
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=229782096]
 position = Vector2(302, 171)
-sprite_frames = ExtResource("1_o5qli")
+sprite_frames = ExtResource("1_0wfyh")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1733302985]
-position = Vector2(263, 178)
-sprite_frames = ExtResource("1_o5qli")
+[node name="Player" type="CharacterBody2D" parent="." unique_id=965177594]
+position = Vector2(200, 174)
+script = ExtResource("2_jyhfs")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1733302985]
+sprite_frames = ExtResource("2_sugp2")
+animation = &"walk"
+autoplay = "walk"
+frame = 3
+frame_progress = 0.5965666
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=181415971]
+position = Vector2(0, 2)
+shape = SubResource("CapsuleShape2D_11rr5")

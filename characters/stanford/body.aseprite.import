@@ -2,13 +2,13 @@
 
 importer="aseprite_wizard.plugin.spriteframes"
 type="SpriteFrames"
-uid="uid://bcbgcwownq0o7"
-path="res://.godot/imported/Stanford.aseprite-febb88300e43bf4283da0f2020cd8563.res"
+uid="uid://cioobnmb5o1e8"
+path="res://.godot/imported/body.aseprite-ddd953aec0458a8387d6563200b1abf2.res"
 
 [deps]
 
-source_file="res://sprites/Stanford.aseprite"
-dest_files=["res://.godot/imported/Stanford.aseprite-febb88300e43bf4283da0f2020cd8563.res"]
+source_file="res://characters/stanford/body.aseprite"
+dest_files=["res://.godot/imported/body.aseprite-ddd953aec0458a8387d6563200b1abf2.res"]
 
 [params]
 
