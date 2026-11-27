@@ -20,9 +20,9 @@ position = Vector2(200, 174)
 script = ExtResource("2_jyhfs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1733302985]
+unique_name_in_owner = true
 sprite_frames = ExtResource("2_sugp2")
 animation = &"walk_east"
-autoplay = "walk_east"
 frame_progress = 0.018750476
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=181415971]
